@@ -13,4 +13,4 @@ jobs:
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
       - name: run hello
-        run: make say-hello
+        run: ls -a
